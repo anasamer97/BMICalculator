@@ -10,7 +10,8 @@ A simple and responsive BMI (Body Mass Index) Calculator built with React and st
   
 ## 📸 Demo
 
-![BMI Calculator Demo](link-to-demo-image-or-screenshot)
+[Screenshot 2025-01-25 135457](https://github.com/user-attachments/assets/b0cfdcff-28ad-418f-91bc-426afe93636d)
+
 
 ## 🚀 Getting Started
 
