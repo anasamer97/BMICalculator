@@ -1,8 +1,76 @@
-# React + Vite
+# BMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive BMI (Body Mass Index) Calculator built with React and styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🛠️ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Input**: Enter your weight and height to calculate your BMI.
+- **Result**: Displays the BMI value and the corresponding BMI category (Underweight, Normal Weight, Overweight, or Obesity).
+- **Responsive Design**: Built with Tailwind CSS for a clean, mobile-friendly design.
+  
+## 📸 Demo
+
+![BMI Calculator Demo](link-to-demo-image-or-screenshot)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- **Node.js** (v14 or higher)
+- **npm** (v6 or higher)
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/bmi-calculator.git
+   ```
+2. **Navigate into the project folder**:
+   ```bash
+   cd bmi-calculator
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Run the project**:
+   ```bash
+   npm run dev
+   ```
+
+   Open your browser and navigate to `http://localhost:3000` to see the BMI Calculator in action.
+
+## 🧑‍💻 Technologies Used
+
+- **React**: For building the user interface.
+- **Tailwind CSS**: For styling the app with utility-first CSS.
+- **Vite**: A fast build tool for modern web projects.
+
+## 👨‍💻 How It Works
+
+- The app takes user input for **weight** (in kg) and **height** (in cm).
+- It calculates the BMI using the formula:  
+  \[
+  BMI = \frac{weight}{height^2}
+  \]
+  (where height is converted from cm to meters).
+- Based on the calculated BMI, the app shows a classification:
+  - Underweight: BMI < 18.5
+  - Normal weight: 18.5 <= BMI < 24.9
+  - Overweight: 25 <= BMI < 29.9
+  - Obesity: BMI >= 30
+
+## 🤝 Contributing
+
+Feel free to fork the repository, make changes, and create pull requests for any improvements or bug fixes. Contributions are welcome!
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Let me know if you need any adjustments to the README! 😊
